@@ -17,9 +17,6 @@ public class PalindromeWords {
         char [] userWordArray = userWord.toCharArray();
         System.out.println(userWordArray);
 
-        //creo un array vuoto dove inserisco i caratteri della parola in ordine inverso
-        //char [] reverseArray = new char[userWord.length()];
-
         boolean isPalindrome = true;
 
         for (int i=0; i<userWordArray.length; i++){
@@ -28,7 +25,12 @@ public class PalindromeWords {
            }
         }
         System.out.println(Arrays.toString(userWordArray));
-        System.out.println(isPalindrome);
+
+if (!isPalindrome) {
+    System.out.println("La parola non è palindroma.");
+} else {
+    System.out.println("La parola è palindroma.");
+}
 
         }
 
