@@ -30,32 +30,7 @@ public class PalindromeWords {
         System.out.println(Arrays.toString(userWordArray));
         System.out.println(isPalindrome);
 
-
         }
-
-
-
-
-
-        /*
-        boolean isPalindrome = false;
-
-        for (int i=userWordArray.length-1; i>=0; i--){
-            reverseArray = new char[]{userWordArray[i]};
-            System.out.println(Arrays.toString(reverseArray));
-        }
-        System.out.println(Arrays.toString(reverseArray));
-
-        if(!isPalindrome) {
-            System.out.println(reverseArray);
-            System.out.println("La parola inserita è palindroma.");
-        } else {
-            System.out.println("La parola inserita non è palindroma.");
-        }*/
-
-
-
-
 
     }
 
