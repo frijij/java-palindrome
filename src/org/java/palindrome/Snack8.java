@@ -22,5 +22,7 @@ public class Snack8 {
         }
 
 System.out.print(sum);
+
+        scan.close();
     }
 }

@@ -32,6 +32,7 @@ if (!isPalindrome) {
     System.out.println("La parola è palindroma.");
 }
 
+        scan.close();
         }
 
     }
